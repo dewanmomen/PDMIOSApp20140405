@@ -337,6 +337,9 @@
 				LastUpgradeCheck = 0510;
 				ORGANIZATIONNAME = knocktechbd;
 				TargetAttributes = {
+					552C0EE818F1A1DE00E2A89E = {
+						DevelopmentTeam = DR586QFMEG;
+					};
 					552C0F0318F1A1DE00E2A89E = {
 						TestTargetID = 552C0EE818F1A1DE00E2A89E;
 					};
@@ -516,12 +519,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "PDMIOSApp20140405/PDMIOSApp20140405-Prefix.pch";
 				INFOPLIST_FILE = "PDMIOSApp20140405/PDMIOSApp20140405-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
 			};
@@ -531,12 +535,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "PDMIOSApp20140405/PDMIOSApp20140405-Prefix.pch";
 				INFOPLIST_FILE = "PDMIOSApp20140405/PDMIOSApp20140405-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
 			};
